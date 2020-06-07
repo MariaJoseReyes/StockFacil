@@ -5,6 +5,7 @@ public class NuevoStock {
         Scanner leer = new Scanner(System.in);
 
         String nuevoStock=leer.nextLine();
+
     }
 }
 
