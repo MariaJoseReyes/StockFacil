@@ -6,5 +6,6 @@ public class Cantidad_Stock {
         Scanner leer = new Scanner(System.in);
 
         int cantidad=leer.nextInt();
+
     }
 }
