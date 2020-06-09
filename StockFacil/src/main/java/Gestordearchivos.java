@@ -41,10 +41,9 @@ public class Gestordearchivos {
     }
 
     /**
-     * Metodo que entrega por consola lo que contiene el archivo libreria.json.
-     *
-     * @param ruta variable para acceder a la ruta del archivo libreria.json.
-     * @return retorna un texto que corresponde a lo que contiene el archivo libreria.json.
+     * Metodo que entrega por consola lo que contiene el archivo Stock.txt.
+     * @param ruta variable para acceder a la ruta del archivo Stock.txt.
+     * @return retorna un texto que corresponde a lo que contiene el archivo Stock.txt.
      */
     public static String leerArchivo(String ruta) {
         Path archivo = Paths.get(ruta);
