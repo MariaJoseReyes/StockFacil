@@ -7,5 +7,6 @@ public class Cantidad_Stock {
 
         int cantidad=leer.nextInt();
 
+
     }
 }
