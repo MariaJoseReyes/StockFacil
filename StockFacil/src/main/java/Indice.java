@@ -10,6 +10,5 @@ Scanner teclado = new Scanner(System.in);
         System.out.println("[1] Nuevo objeto para stock");
         NuevoStock nuevo = new NuevoStock();
 
-
     }
 }
