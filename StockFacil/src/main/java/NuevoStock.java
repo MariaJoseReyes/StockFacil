@@ -15,6 +15,7 @@ public class NuevoStock {
         System.out.println("Ingrese cantidad del objeto creado");
         int cantidad =Validacion.validarEntero();
         Gestordearchivos.nuevaLineaTexto("stock.txt", nombre, cantidad);
+
     }
 }
 

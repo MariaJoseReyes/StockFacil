@@ -5,7 +5,8 @@ import java.util.Scanner;
     public class Validacion {
         /**
          * Metodo que valida una variable de tipo entero.
-         *
+         * al ingresar pide al usuario que ingrese el numero deseado.
+         * en caso de no ser un numero entero muestra un mensaje y vuelve a pedir el numero.
          * @return retorna una variable de tipo entero Int.
          */
         public static int validarEntero() {
