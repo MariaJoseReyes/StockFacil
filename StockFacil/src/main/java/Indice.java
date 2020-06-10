@@ -1,7 +1,10 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Indice { //desde donde empezara lo que se quiera hacer.
+public class Indice {
+    /**
+     * creacion del archivo de texto en caso de que no exista.
+     */
 
     public static void main(String[] args) {
         Gestordearchivos.crearArchivoVacio();
