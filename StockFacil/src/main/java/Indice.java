@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Indice { //desde donde empezara lo que se quiera hacer.
 
     public static void main(String[] args) {
-        GestordeArchivo.crearArchivoVacio();
+        Gestordearchivos.crearArchivoVacio();
         menu();
     }
     
@@ -32,15 +32,14 @@ public class Indice { //desde donde empezara lo que se quiera hacer.
     public static void seleccion(int opcion, boolean ejec) {
         switch (opcion) {
             case 1:
-                CrearObjeto.crearObjeto();
+                NuevoStock.crearStock();
                 break;
             case 2:
-                LeerArchivo.leerArchivo("stock.txt");
+                Gestordearchivos.leerArchivo("stock.txt");
                 break;
             default:
                 break;
         }
     }
-}
 }
 

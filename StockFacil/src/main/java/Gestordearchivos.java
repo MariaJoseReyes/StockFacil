@@ -4,9 +4,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-/**
- * Metodo sujeto a modificaciones devido al funcionamiento.
- */
 public class Gestordearchivos {
         /**
          * Metodo que comprueba si existe el archivo stock.txt, si no existe lo crea.
@@ -25,10 +22,10 @@ public class Gestordearchivos {
     /**
      * Metodo que ingresa una nueva linea de texto al inventario stock.txt
      */
-    public static String nuevaLineaTexto(String ruta, String nonbreObjeto, int cantidad) {
+    public static String nuevaLineaTexto(String ruta, String nombreObjeto, int cantidad) {
         Path archivo = Paths.get(ruta);
         String texto = "";
-        String linea = nonbreObjeto + ", Cantidad: " + cantidad;
+        String linea = nombreObjeto+", Cantidad: "+cantidad+", Fecha: "+Fecha_Hora.fechaActual()+" ,Hora: "+Fecha_Hora.horaActual();
         try {
             texto = new String(Files.readAllBytes(archivo));
             texto = texto + "\n" + linea;
@@ -56,7 +53,6 @@ public class Gestordearchivos {
         }
         return texto;
     }
-
 }
 
 
