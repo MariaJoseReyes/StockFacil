@@ -1,19 +1,15 @@
 import java.util.Scanner;
-
 public class Venta {
-
 
     public static void vender(){
         boolean realizar = true;
-
         while (realizar = true) {
 
             System.out.println("Elige tu celular");
             elegirCelular();
-
+            
             System.out.println("¿Quieres comprar otro celular más?\n1-Si \n2-No"); //podria eliminarse
             int opcion = Validacion.validarEntero();
-
             if (opcion== 2){
                 realizar = false;
             }else if(opcion == 1){
@@ -37,8 +33,8 @@ public class Venta {
                 //celular.setColor(color);
                 int precio = elegirNum (marca, modelo, "Huawei", "Apple");
                 celular.setPrecio(precio);
-
                 break;
+                
             case 2:
                 System.out.println("quiere por precio");
                 break;
