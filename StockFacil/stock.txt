@@ -1,0 +1,6 @@
+
+perro, Cantidad: 3, Fecha: 09/06/2020 ,Hora: 20:34:49
+ato, Cantidad: 3, Fecha: 09/06/2020 ,Hora: 21:23:53
+arbol, Cantidad: 4, Fecha: 10/06/2020 ,Hora: 15:55:05
+pato, Cantidad: 3, Fecha: 10/06/2020 ,Hora: 15:56:29
+perro, Cantidad: 3, Fecha: 10/06/2020 ,Hora: 15:57:02
