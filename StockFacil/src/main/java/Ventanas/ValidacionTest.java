@@ -1,10 +1,9 @@
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
+package Ventanas;
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.util.Scanner;
+import validar.Validacion;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -23,7 +22,7 @@ class ValidacionTest {
     void validarLetras() {
     String palabra="hola1";
     boolean esperado=false;
-    boolean real=Validacion.validarLetras(palabra);
+    boolean real= Validacion.validarLetras(palabra);
     assertEquals(esperado,real);
     }
 }

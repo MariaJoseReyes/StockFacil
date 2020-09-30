@@ -1,0 +1,13 @@
+
+perro, Cantidad: 32, Fecha: 27/08/2020 ,Hora: 19:06:38
+Tarro, Cantidad: 312433, Fecha: 27/08/2020 ,Hora: 19:07:10
+asd, Cantidad: 3, Fecha: 27/08/2020 ,Hora: 19:43:41
+wq, Cantidad: 2, Fecha: 27/08/2020 ,Hora: 19:43:47
+astro, Cantidad: 12, Fecha: 27/08/2020 ,Hora: 20:09:15
+as, Cantidad: 3, Fecha: 27/08/2020 ,Hora: 20:09:55
+Algo, Cantidad: 2, Fecha: 27/08/2020 ,Hora: 20:18:42
+samnsugn, Cantidad: 3, Fecha: 27/08/2020 ,Hora: 20:29:17
+TelevisorSamsung, Tipo OledTamañoPulgadas42 Cantidad:30, Fecha: 27/08/2020 ,Hora: 21:32:31
+Omen, Cantidad: 32, Fecha: 27/08/2020 ,Hora: 21:57:22
+cosa, Cantidad: 3, Fecha: 27/08/2020 ,Hora: 22:03:56
+Celular Marcahuawei, Modelo PteintaColorNaranjoCapacidadGigas3050, Cantidad: 32, Fecha: 27/08/2020 ,Hora: 23:29:29
